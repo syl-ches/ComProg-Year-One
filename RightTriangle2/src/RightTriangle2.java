@@ -1,7 +1,7 @@
 /*
 Name: Mark Chester P. Caliva
 Programming Date: September 4 2023
-Activity Name and Number: Prelim Exercise Number 3.2
+Activity Name and Number: Prelim Exercise Number 3.1
 
 Problem:
 Create a program for determining the hypotenuse of a Right Triangle with a given base and height.
