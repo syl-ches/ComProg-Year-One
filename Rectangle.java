@@ -23,6 +23,7 @@ package exercises.prelims;
 public class Rectangle {
     public static void main(String[] args) {
         // Below computes the perimeter of a rectangle and area of the rectangle
+        // a is thhe width of the rectangle, and b is the length of the rectangle
         double a = 5;
         double b = 7;
         double length;
