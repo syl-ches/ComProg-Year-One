@@ -20,7 +20,8 @@ Algorithm:
 import java.lang.*;
 public class RightTriangle2 {
     public static void main(String[] args) {
-
+        //below computes the hypotenuse with a given base and height
+        //the given base is b, and the given height is a
         double b = 8;
         double a = 6;
         double height;
@@ -31,5 +32,5 @@ public class RightTriangle2 {
         hypotenuse = Math.sqrt(base + height);
         System,out.println(" Given base is "+b+" \n Given height is "+a+"  ");
         System.out.println(" Computed hypotenuse is "+ hypotenuse +"  ");
-    }
-}
+    }//end of main method
+}//end of class
