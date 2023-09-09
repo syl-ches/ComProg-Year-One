@@ -22,6 +22,7 @@ package exercises.prelims;
 
 public class Square {
     //Below computes the area and the perimeter of the square with a given side
+    //the given side of the square is x
     public static void main(String [] args) {
     double x;
     double perimeter;
