@@ -36,5 +36,5 @@ public class Rectangle {
         System.out.println(" The length of the rectangle is "+b+" \n The width of the rectangle is "+a+"    ");
         System.out.println(" The perimeter of the rectangle is " +perimeter+ " ");
         System.out.println(" The area of the rectangle is "+area+" ");
-    }
-}
+    } //end of main method
+} //end of class
