@@ -38,7 +38,7 @@ public class Dispenser {
 
         int biggest = (amount % largest);
         int remain = amount/largest;
-        int minus = remain * biggest;
+        int minus = remain * largest;
 
         int divide = biggest % mid;
         int mean = biggest/mid;
