@@ -1,0 +1,38 @@
+
+
+.image1{
+    display:flex;
+    float: left;
+    padding:5px;
+}
+
+  
+
+.text{
+    right:500px;
+}
+
+
+.Title{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.Introduction{
+
+    
+    background-color: lightblue;
+    padding:5px;
+    border-color: lightblue;
+    border-style: solid;
+    border-width:3px;
+    text-align:center;
+    font-size: large;
+}
+
+.beach {
+    
+
+}
+
