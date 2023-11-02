@@ -1,0 +1,492 @@
+body {
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("photo-1498457764404-1790a9bbc781.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 7in;
+    background-color: whitesmoke;
+}
+
+.maintitle{
+    line-height: 5px;
+}
+.maintitle:link{
+    text-decoration: none;
+    color:white;
+
+}
+.maintitle:visited{
+    text-decoration: none;
+    color:white;
+}
+.primaryHeading {
+    margin-top:25px;
+    line-height: 0px;
+    margin-left:15px;
+    color:white;
+}
+
+.primaryHeading1 {
+    margin-top: 0px;
+    line-height: 0px;
+    margin-left:15px;
+    color:white;
+}
+
+
+
+.plan{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    padding:5px;
+    margin-left:50px;
+}
+
+.plan:link{
+    text-decoration:none;
+    color:white;
+}
+
+.plan:visited{
+    text-decoration: none;
+    color:white;
+}
+.plan:hover{
+    background-color:gray;
+}
+
+.destinations{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    padding:5px;
+    margin-left:50px;
+}
+
+.destinations:link{
+    color:white;
+    text-decoration: none;
+}
+
+.destinations:visited{
+    color:white;
+    text-decoration: none;
+}
+.destinations:hover {
+    background-color:gray;
+}
+
+
+.body1 {
+    margin-top:200px;
+    margin-left:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+
+
+}
+
+.expdesc{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-top:50px;
+    font-size:20px;
+}
+
+.body1{
+    line-height:0px;
+}
+
+
+
+.body1read{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:100px;
+    font-size:15px;
+    background-color:black;
+    border-color: transparent;
+    border-radius:3px;
+    padding:20px;
+    margin-left:20px;
+    color:white;
+    display: inline-block;
+}
+
+.body1read:link{
+    color:white;
+    text-decoration: none;
+}
+
+.body1read:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.body1read:hover {
+    background-color: gray;
+}
+
+.ordinary{
+    color:black;
+    font-size:35px;
+    position:relative;
+    margin-left:15px;
+    float:right;
+    margin-right:30px;
+    margin-top:430px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.ordinary::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.ordinary:hover::before{
+    transform:scaleX(1);
+    transform-origin: bottom left;
+}
+
+.ordinary::before{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0; right:0; bottom:0; left:0;
+    inset:0 0 0 0;
+    background: lightgray;
+    z-index:-1;
+    transition:transform .3s ease;
+    
+
+}
+
+
+.relax{
+    font-family:'Times New Roman', Times, serif;
+    margin-left:0px;
+    font-size:20px;
+    float:right;
+    margin-right:50px;
+}
+
+.sunset{
+    width:7in;
+    height:4in;
+    margin-left:15px;
+    margin-top:300px;
+    border-radius: 5px;
+    float:left;
+    display:flex;
+    transition: transform 0.2s;
+}
+
+.sunset:hover{
+  transform: scale(1.05);
+}
+
+.discover{
+    border:solid;
+    border-color:black;
+    background-color:transparent;
+    color:black;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:25px;
+    padding-right:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:95px;
+    margin-top:50px;
+    border-width: 1px;;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.discover:link{
+    color:black;
+    text-decoration: none;
+}
+
+.discover:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.discover:hover{
+    background-color:black;
+    color:white;
+}
+
+.aboutla{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    padding:5px;
+    margin-left:350px;
+    color:white;
+    font-size: smaller;
+}
+.aboutla:hover{
+    background-color: gray;
+
+}
+
+.aboutla:link{
+    color:white;
+    text-decoration: none;
+}
+
+.aboutla:visited{
+    color:white;
+    text-decoration: none;
+}
+.escape{
+    color:black;
+}
+
+.relic{
+    height:4in;
+    width:7in;
+    margin-top:200px;
+    float:right;
+    border-radius:5px;
+    transition: transform 0.2s;
+
+}
+
+.relic:hover{
+    transform: scale(1.05);
+}
+
+.blackandwhitedef{
+    font-family:'Times New Roman', Times, serif;
+    margin-left:160px;
+    margin-top:330px;
+    font-size:35px;
+    float:left;
+    position:relative;
+    
+}
+
+.blackandwhitedef::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.blackandwhitedef:hover::before{
+    transform:scaleX(1);
+    transform-origin: bottom left;
+}
+
+.blackandwhitedef::before{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0; right:0; bottom:0; left:0;
+    inset:0 0 0 0;
+    background: lightgray;
+    z-index:-1;
+    transition:transform .3s ease;
+    
+
+}
+.historydef{
+    float:left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:90px;
+    font-size:20px;
+}
+
+.historybutton{
+    float:left;
+    border:solid;
+    border-color:black;
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:90px;
+    margin-top:50px;
+    border-width: 1px;;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.historybutton:link{
+    text-decoration:none;
+    color:black;
+}
+
+.historybutton:visited{
+    text-decoration:none;
+    color:black;
+
+}
+
+.historybutton:hover{
+    background-color:black;
+    color:white;
+}
+
+.mbark{
+    float:center;
+    margin-top: 800px;
+    font-size:35px;
+    margin-left:450px;
+    display: flex;
+}
+
+.surfing{
+    transition:transform .2s;
+    float:left;
+    height:5in;
+    width:27%;
+    margin-left:4.75%;
+    border-radius:5px;
+    filter: brightness(0.5);
+}
+
+.surfing:hover{
+    filter: brightness(1.0);
+    transform: scale(1.05);
+}
+
+.food{
+    transition:transform .2s;
+    float:left;
+    height:5in;
+    width:27%;
+    margin-left:4.75%;
+    border-radius:5px;
+    filter: brightness(0.5);
+}
+
+.food:hover{
+    filter: brightness(1.0);
+    transform: scale(1.05);
+}
+
+
+.culture{
+    transition:transform .2s;
+    float:left;
+    height:5in;
+    width:27%;
+    margin-left:4.75%;
+    border-radius:5px;
+    filter: brightness(0.5);
+}
+
+.culture:hover{
+    filter: brightness(1.0);
+    transform: scale(1.05);
+}
+
+.signup{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 50apx;
+    float:left;
+}
+
+.intouch{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px;
+    float:left;
+    margin-right: 650px;
+    margin-left: 35px;
+    
+}
+.mailing{
+    border-radius: 5px;
+    margin-top:600px;
+    line-height: 0;
+    padding-bottom: 500px;
+}
+
+.inputname{
+    float:left;
+    margin-top:50px;
+    margin-right: 500px;
+    margin-left:40px;
+}
+.email{
+    width: 35%;
+    padding: 12px;
+    margin-top:15px;
+    margin-left:35px;
+    margin-right:500px;
+    border: 1px solid #0f0b0b;
+    box-sizing: border-box;
+    float:left;
+    border-radius:5px;
+}
+
+.atmail{
+    float:left;
+    margin-top:50px;
+    margin-right:500px;
+    margin-left:40px;
+    
+}
+
+
+.ormail{
+    width: 35%;
+    padding: 12px;
+    margin-top:15px;
+    margin-left:35px;
+    margin-right:500px;
+    border: 1px solid #0f0b0b;
+    box-sizing: border-box;
+    float:left;
+    border-radius:5px;
+}
+
+.sup{
+    float:left;
+    margin-top:50px;
+    margin-right: 500px;
+    margin-left: 35px;
+    background-color: black;
+    border-color: transparent;
+    border:1px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    transition: transform 0.2s;
+
+}
+
+.sup:hover{
+    background-color: gray;
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.sup:active{
+    transform: scale(1.1);
+    
+}
+@media (orientation: landscape) {
+    .ordinary,.blackandwhitedef {
+      grid-auto-flow: column;
+    }
+
+  }
+
+
