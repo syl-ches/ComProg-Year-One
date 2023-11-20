@@ -10,15 +10,18 @@ public class Void_Caliva {
         System.out.println("Random Array: ");
         System.out.print("[");
         int sum = 0;
-         for(int i = 0; i<10; i++){
-             int rand1 = a.nextInt(51); //generates a random number
-             int[] b = new int[10]; // array size declaration
-             b[i] = rand1; // array value assignment
-             sum += b[i];
-             System.out.print(" "+b[i]+", ");
-         }
-            System.out.print("]");
-            System.out.println();
-            System.out.println("Sum of the total numbers: "+sum);
+        for(int i = 0; i<10; i++){
+            int rand1 = a.nextInt(51); //generates a random number
+            int[] b = new int[10]; // array size declaration
+            b[i] = rand1; // array value assignment
+            sum += b[i];
+            System.out.print(b[i]);
+            if (i<9){
+                System.out.print(", ");
+            }
+        }
+        System.out.print("]");
+        System.out.println();
+        System.out.println("Sum of the total numbers: "+sum);
     }
 }
