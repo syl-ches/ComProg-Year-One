@@ -1,0 +1,291 @@
+body{
+    background-image: url("/PICTURE_FILES/anna-regina-cinco-LUf5DcRKF0M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 7in;
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+
+
+
+.maintitle{
+    line-height: 5px;
+}
+.maintitle:link{
+    text-decoration: none;
+    color:white;
+
+}
+
+.maintitle:visited{
+    text-decoration: none;
+    color:white;
+}
+.primaryHeading {
+    margin-top:2%;
+    line-height: 0px;
+    margin-left:1%;
+    color:white;
+    flex:1;
+}
+
+.primaryHeading1 {
+    margin-top: 0;
+    line-height: 0;
+    margin-left:1%;
+    color:white;
+}
+
+
+
+.plan{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:10%;
+}
+
+.plan:link{
+    text-decoration:none;
+    color:white;
+}
+
+.plan:visited{
+    text-decoration: none;
+    color:white;
+}
+.plan:hover{
+    background-color:rgba(128, 128, 128, 0.47);
+}
+
+.destinations{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:7%;
+
+
+}
+
+
+.destinations:link{
+    color:white;
+    text-decoration: none;
+}
+
+.destinations:visited{
+    color:white;
+    text-decoration: none;
+}
+.destinations:hover {
+    background-color:rgba(128, 128, 128, 0.42);
+}
+
+.aboutla{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:20%;
+    color:white;
+    font-size: smaller;
+}
+.aboutla:hover{
+    background-color: rgba(128, 128, 128, 0.427);
+
+}
+
+.aboutla:link{
+    color:white;
+    text-decoration: none;
+}
+
+.aboutla:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.desti{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:3em;
+    color:white;
+    text-align: center;
+    margin-top:20%;
+ 
+}   
+
+.beach{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2em;
+    color:black;
+    text-align: center;
+    margin-top:35%;
+
+}
+
+
+.beach1{
+    border-radius: 5px;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+}
+
+.beach1:hover{
+    transform:scale(1.03);
+
+}
+
+.beach2{
+    border-radius: 5px;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+}
+
+.beach2:hover{
+    transform:scale(1.03);
+}
+
+.beach3{
+    border-radius: 5px;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+
+}
+
+.beach3:hover{
+    transform:scale(1.03);
+}
+
+.beach4{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+
+}
+
+.beach4:hover{
+    transform: scale(1.03);
+}
+
+.beach5{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+}
+
+.beach5:hover{
+    transform: scale(1.03);
+}
+
+.beach6{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+
+}
+
+.beach6:hover{
+    transform: scale(1.03);
+}
+
+.pud{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2em;
+    color:black;
+    text-align: center;
+    margin-top:60%;
+}
+
+.food1{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+    padding-bottom: 10%;
+
+}
+
+.food1:hover{
+    transform: scale(1.03);
+}
+
+.food2{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+    padding-bottom: 10%;
+
+}
+
+.food2:hover{
+    transform: scale(1.03);
+}
+
+.food3{
+    border-radius: 5px;
+    margin-top:3%;
+    float:left;
+    width:30%;
+    margin-left:2.5%;
+    height:3in;
+    transition: transform .2s;
+    padding-bottom: 10%;
+}
+
+.food3:hover{
+    transform: scale(1.03);
+}
+
+.kulture{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2em;
+    color:black;
+    text-align: center;
+    margin-top:35%;
+
+}
+.kultura{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    width:80%;
+    text-align: center;
+    margin-top:2%;
+    padding-bottom: 10%;
+}

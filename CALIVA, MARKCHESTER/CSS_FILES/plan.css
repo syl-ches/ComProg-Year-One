@@ -1,0 +1,219 @@
+body{
+    
+        background-image: url("/PICTURE_FILES/photo-1552912809-fb011ec55fa4.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 7in; 
+        background-color: whitesmoke;
+        max-width: 100%;
+    }
+    
+
+
+
+.maintitle{
+    line-height: 5px;
+}
+.maintitle:link{
+    text-decoration: none;
+    color:white;
+
+}
+
+.maintitle:visited{
+    text-decoration: none;
+    color:white;
+}
+.primaryHeading {
+    margin-top:2%;
+    line-height: 0px;
+    margin-left:1%;
+    color:white;
+    flex:1;
+}
+
+.primaryHeading1 {
+    margin-top: 0;
+    line-height: 0;
+    margin-left:1%;
+    color:white;
+}
+
+
+
+.plan{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:10%;
+}
+
+.plan:link{
+    text-decoration:none;
+    color:white;
+}
+
+.plan:visited{
+    text-decoration: none;
+    color:white;
+}
+.plan:hover{
+    background-color:rgba(128, 128, 128, 0.45);
+}
+
+.destinations{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:7%;
+
+
+}
+
+
+.destinations:link{
+    color:white;
+    text-decoration: none;
+}
+
+.destinations:visited{
+    color:white;
+    text-decoration: none;
+}
+.destinations:hover {
+    background-color:rgba(128, 128, 128, 0.495);
+}
+
+.aboutla{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:.5em;
+    margin-left:20%;
+    color:white;
+    font-size: smaller;
+}
+.aboutla:hover{
+    background-color: rgba(128, 128, 128, 0.413);
+
+}
+
+.aboutla:link{
+    color:white;
+    text-decoration: none;
+}
+
+.aboutla:visited{
+    color:white;
+    text-decoration: none;
+}
+
+
+.plantrip{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:3.3em;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+.plantripdef{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.2em;
+    max-width: 50%;
+    margin-left:2%;
+    margin-top: 0;
+    line-height: 1.4;
+    
+}
+
+.Municipality{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2.5em;
+    text-align:center;
+    margin-top:30%;
+
+}
+
+.minicipality{
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    margin-top: 5%;
+    width:50%;
+}
+
+.minicipality{
+    transition: transform  .2s;
+    
+}
+
+.minicipality:hover{
+    transform:scale(1.1);
+
+    
+}
+
+.sealdef{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+}
+
+.hotlines{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.hotlinespic{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+}
+
+.dl:link{
+    max-width: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color:black;
+    margin-left: 43%;
+    margin-right: 37%;
+    display: flex;
+
+}
+
+.dl:visited{
+    color:gray;
+}
+
+.around{
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.lutramp{
+    width:60%;
+    height:17%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.lutrampdef{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-align: center;
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:10px;
+}
